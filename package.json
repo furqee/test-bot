@@ -1,0 +1,28 @@
+{
+  "name": "test-bot",
+  "version": "1.0.0",
+  "description": "This repository will contains on simple Q/A bot that will answer user's questions from a given knowledge. To store the knowledge using Vector Database and embeddings. Using LLM to answer user questions in natural language.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node server.js",
+    "start": "npm run build && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furqee/test-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furqee/test-bot/issues"
+  },
+  "homepage": "https://github.com/furqee/test-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "openai": "^4.52.2"
+  }
+}
